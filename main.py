@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import RedirectResponse
-from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
+#from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 
 
 import models
@@ -24,7 +24,7 @@ origins = [
 #     allow_headers=["*"],
 # )
 
-app.add_middleware(HTTPSRedirectMiddleware)
+#app.add_middleware(HTTPSRedirectMiddleware)
 
 models.Base.metadata.create_all(bind=engine)
 
