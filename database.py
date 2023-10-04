@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import text
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./todos.db"
-SQLALCHEMY_PGRES_DATABASE_URL = 'postgresql://mrayhbnk:7RqHvrjBbM6LL4KO0Zq6EGdH7mdcsyUE@berry.db.elephantsql.com/mrayhbnk'
+SQLALCHEMY_PGRES_DATABASE_URL = 'postgresql://Praveen@fastapi:Emplfizh@1999@fastapi.postgres.database.azure.com:5432/postgres'
 
 
 # MYSQL Series
