@@ -5,7 +5,7 @@ from sqlalchemy.sql import text
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./todos.db"
 #SQLALCHEMY_PGRES_DATABASE_URL = 'postgresql://Praveen@fastapi:Emplfizh1999@fastapi.postgres.database.azure.com:5432/postgres'
-SQLALCHEMY_PGRES_DATABASE_URL = 'postgresql://Praveen:Emplfizh1999@fastapi9991.postgres.database.azure.com:5432/fastapi'
+SQLALCHEMY_PGRES_DATABASE_URL = 'postgresql://mrayhbnk:7RqHvrjBbM6LL4KO0Zq6EGdH7mdcsyUE@berry.db.elephantsql.com/mrayhbnk'
 
 
 # MYSQL Series
